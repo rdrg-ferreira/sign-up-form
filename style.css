@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./assets/Norse-Bold.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* left panel */
+
+.left {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.title > img {
+    width: 20%;
+    height: auto;
+}
+
+.title > p {
+    font-family: Norse-Bold, 'Roboto';
+    color: white;
+    font-size: 5rem;
+}
+
+.atribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.75rem;
+}
+
+.atribution > a {
+    color: white;
+}
+
+/* right panel */
+
+.right {
+    width: 60%;
+}
