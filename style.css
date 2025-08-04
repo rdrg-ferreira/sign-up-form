@@ -151,7 +151,7 @@ form {
     outline: none;
 }
 
-.input > input:invalid {
+.input > input:user-invalid {
     border-color: red;
 }
 
