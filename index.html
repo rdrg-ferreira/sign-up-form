@@ -22,42 +22,47 @@
     </div>
     
     <div class="right">
-        <p>This is not a real online service! ou know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-        <p>You know you want to.</p>
-        <form action="#" method="get">
-            Let's do this!
-            <div class="input-container">
-                <div class="input">
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name">
+        <div class="wrapper">
+            <p>This is not a real online service! ou know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up now to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+            <form action="#" method="get">
+                <div class="container">
+                    Let's do this!
+                    <div class="input-container">
+                        <div class="input">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" autocomplete="off" id="first_name">
+                        </div>
+                        <div class="input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" autocomplete="off" id="email">
+                        </div>
+                        <div class="input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" autocomplete="off" id="password">
+                        </div>
+                        <div class="input">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" autocomplete="off" id="last_name">
+                        </div>
+                        <div class="input">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" autocomplete="off" id="phone_number">
+                        </div>
+                        <div class="input">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" autocomplete="off" id="confirm_password">
+                        </div>
+                    </div>
                 </div>
-                <div class="input">
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name">
-                </div>
-                <div class="input">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email">
-                </div>
-                <div class="input">
-                    <label for="phone_number">PHONE NUMBER</label>
-                    <input type="tel" id="phone_number">
-                </div>
-                <div class="input">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password">
-                </div>
-                <div class="input">
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm_password">
-                </div>
-            </div>
-            <button>Create Account</button>
+                <button>Create Account</button>
+            </form>
             <div class="log-in">
-                Already have an account? 
+                Already have an account?
                 <a href="#">Log in</a>
             </div>
-        </form>
+        </div>
     </div>
 </body>
 </html>
